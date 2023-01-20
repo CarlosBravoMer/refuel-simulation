@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refuel Simulation | Carlos Bravo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>REFUEL SIMULATION</h1>
+    <!-- HTML !-->
+    <main id="main-content">
+
+        <div class="selection">
+            <div class="gas-select">
+                <h2>GAS SELECT</h2>
+                <button class="btn gas-selector gas">Gas</button>
+                <button class="btn gas-selector diesel">Diesel</button>
+            </div>
+
+            <div class="site-select">
+                <h2>SITE SELECT</h2>
+                <button class="btn site site-one">1</button>
+                <button class="btn site site-two">2</button>
+                <button class="btn site site-three">3</button>
+                <button class="btn site site-four">4</button>
+            </div>
+
+            <div class="price-select">
+                <h2>MOUNT</h2>
+                <button class="btn price plus-five">+5</button>
+                <button class="btn price plus-ten">+10</button>
+                <button class="btn price plus-twenty">+20</button>
+
+                <button class="btn price confirm">OK</button>
+                <button class="btn price reset">RESET</button>
+
+
+                <div class="mount-counter">
+                </div>
+            </div>
+
+            <!-- <div class="pay-select">
+                <h2>PAY METHOD</h2>
+                <button class="btn pay pay-cash">Cash</button>
+                <button class="btn pay pay-card">Credit Card</button>
+            </div> -->
+
+            <div>
+
+            </div>
+        </div>
+
+        <div class="simulation">
+            <div class="price-info">
+                <h2>PRICE TODAY</h2>
+                <div class="price-value price-gas">1,50</div>
+                <div class="price-value price-diesel">1,99</div>
+            </div>
+            <div class="price-detail">
+                <div class="detail price-pvp">0 €</div>
+                <div class="detail price-litre">0 L</div>
+            </div>
+
+            <div class="refill">REFILL</div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
