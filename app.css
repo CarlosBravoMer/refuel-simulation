@@ -13,6 +13,11 @@ h1 {
   color: #292929;
 }
 
+.unavaible {
+  display: none;
+  color: #ededed;
+}
+
 h2 {
   color: #0262db;
 }
@@ -170,4 +175,15 @@ h2 {
   background-color: #008ff8;
   color: #fff;
   transform: scale(0.95);
+}
+
+@media (max-width: 1200px) {
+  #main-content {
+    display: none;
+  }
+
+  .unavaible {
+    display: block;
+    color: #ededed;
+  }
 }
